@@ -105,7 +105,7 @@ service:
   name: uui-server
   internalPort: 8082
   ports:
-    - name: http
+    - name: https
       port: 8082
       nodePort: '99'
   annotations:
