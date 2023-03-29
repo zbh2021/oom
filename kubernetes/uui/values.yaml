@@ -73,8 +73,8 @@ service:
           "path":"/iui/usecaseui",
           "protocol": "UI",
           "visualRange":"1",
-          "port": "http",
-          "port": "{{ include "common.getPort" (dict "global" . "name" "http" "getPlain" true) }}"
+          "port": "https",
+          "port": "{{ include "common.getPort" (dict "global" . "name" "https" "getPlain" true) }}"
         }
       ]{{ end }}
 
